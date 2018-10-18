@@ -1,0 +1,160 @@
+.back {
+  background-image: url("c://users/sandman/projects/TiaSandman/images/tia-bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 75px;
+  z-index: -1;
+  height: 100vh; }
+
+a {
+  color: black; }
+
+.navbar {
+  display: flex; }
+
+.navbar-nav {
+  background: rgba(255, 255, 255, 0.5);
+  width: 125px;
+  text-align: center;
+  font-size: 18px; }
+
+.navbar-toggle {
+  display: flex-end;
+  cursor: pointer; }
+
+.navbar-toggler {
+  background: white !important;
+  display: block; }
+
+.navbar-brand {
+  font-family: 'Anton', sans-serif;
+  font-variant: small-caps;
+  color: black !important;
+  font-weight: 400;
+  font-size: 3.25em;
+  text-align: left; }
+
+.modal-header h3 {
+  height: 20px; }
+
+#headshot {
+  float: left;
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 0px; }
+
+.bio {
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 0px; }
+
+.modal-body img {
+  height: 100%;
+  width: 100%; }
+
+.nospam {
+  display: none !important; }
+
+.title {
+  margin-left: -10px;
+  font-size: 1.5em;
+  color: black !important;
+  text-align: left;
+  position: fixed; }
+
+.social {
+  font-size: .65em;
+  padding: 2px;
+  color: black !important; }
+
+.icon {
+  background-color: black;
+  color: white;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 10px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  border-radius: 50%; }
+
+.bot {
+  height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0; }
+
+.row {
+  flex-wrap: wrap; }
+
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  height: 25vh; }
+
+.card-title {
+  display: block;
+  text-align: center;
+  height: 25px;
+  vertical-align: middle;
+  font-size: 20px; }
+
+.card-text {
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: justify; }
+
+.video-link {
+  color: #1227af !important; }
+
+.modal.fade .modal-dialog {
+  transform: none !important; }
+
+.fa-play {
+  cursor: pointer; }
+
+.foot-left {
+  color: black !important;
+  text-align: left; }
+
+.foot-right {
+  color: black !important;
+  text-align: right; }
+
+@media screen and (max-width: 768px) {
+  .back {
+    background-image: url("c://users/sandman/projects/TiaSandman/images/tia-bg.jpg");
+    padding-top: 50px; }
+
+  .navbar-brand {
+    font-size: 10vw; }
+
+  .title {
+    font-size: 6vw; }
+
+  .row {
+    padding-bottom: 20px; }
+
+  .bot {
+    height: auto; }
+
+  .card {
+    height: auto;
+    border-radius: 10px; } }
+@media (max-height: 400px) and (orientation: landscape) {
+  .back {
+    padding-top: 60px; }
+
+  .navbar-brand {
+    font-size: 6.5vw; }
+
+  .title {
+    font-size: 4vw; } }
+
+/*# sourceMappingURL=main_3.css.map */
